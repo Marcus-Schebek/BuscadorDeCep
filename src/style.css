@@ -169,7 +169,7 @@ main{
         width: 100vw;
     }
     .blob{
-        display: hidden;
+        display: none;
     }
     .container .row100 .col .inputBox{
         width: 60%;
