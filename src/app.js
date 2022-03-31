@@ -31,6 +31,7 @@ const pesquisarCep = async () => {
     cep.value = '';
   } else {
     preencherFormulario(endereco);
+    console.log('ta funcionando até aqui');
   }
 };
 
