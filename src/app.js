@@ -23,7 +23,7 @@ const cleanForm = () => {
 }
 
 const pesquisarCep = async () => {
-  const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+  const url = `https://viacep.com.br/ws/${cep.value}/json/`;
   const data = await fetch(url);
   const endereco = await data.json();
   if (endereco.hasOwnProperty('erro')){
