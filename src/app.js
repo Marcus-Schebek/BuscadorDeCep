@@ -23,7 +23,6 @@ const cleanForm = () => {
 }
 
 const pesquisarCep = async () => {
-  console.log('ta funcionando até aqui')
   const url = `https://viacep.com.br/ws/${cep.value}/json/`;
   const data = await fetch(url);
   const endereco = await data.json();
